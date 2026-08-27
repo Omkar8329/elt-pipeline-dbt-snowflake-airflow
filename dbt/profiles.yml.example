@@ -1,0 +1,16 @@
+# Copy to ~/.dbt/profiles.yml and replace placeholders locally.
+# Never commit a real profiles.yml or password.
+
+data_pipeline:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: <your_account_locator>
+      user: <your_username>
+      password: <your_password>
+      role: dbt_role
+      warehouse: dbt_wh
+      database: dbt_db
+      schema: dbt_schema
+      threads: 4
