@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# dbt generated files
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# Local credentials and secret files
+.env
+.env.*
+!.env.example
+profiles.yml
+**/profiles.yml
+*.pem
+*.key
+
+# Airflow local files
+airflow/airflow.cfg
+airflow/webserver_config.py
+airflow/standalone_admin_password.txt
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
