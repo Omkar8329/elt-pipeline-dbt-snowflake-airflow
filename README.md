@@ -2,7 +2,7 @@
 
 ## Project overview
 
-This tutorial-inspired learning project demonstrates an end-to-end ELT pipeline using Snowflake as the data warehouse, dbt for SQL transformation and testing, and Apache Airflow with Astronomer Cosmos for scheduling and orchestration.
+This project demonstrates an end-to-end ELT pipeline using Snowflake as the data warehouse, dbt for SQL transformation and testing, and Apache Airflow with Astronomer Cosmos for scheduling and orchestration.
 
 The pipeline uses Snowflake's TPC-H sample data and transforms raw `ORDERS` and `LINEITEM` tables into a tested, order-level mart named `fct_orders`.
 
