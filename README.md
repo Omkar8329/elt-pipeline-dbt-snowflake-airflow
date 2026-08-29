@@ -89,6 +89,4 @@ Credentials are intentionally excluded. Use `dbt/profiles.yml.example` as a temp
 
 This project helped me understand how raw data becomes reliable analytical data through modular SQL models, reusable macros, key design, data tests, and orchestration.
 
-## Project note
 
-This is a tutorial-inspired learning project, not a claim of production readiness. A production deployment would additionally need stronger secret management, CI/CD, environment separation, monitoring, incremental processing, and cost controls.
